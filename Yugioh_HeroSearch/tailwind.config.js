@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    width:{
+      logo: '4.5rem',
+      signal: '3.125rem'
+    },
     extend: {},
   },
   plugins: [],
