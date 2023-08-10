@@ -7,16 +7,16 @@ import VH_Signal from './Images/Signal/Signal_VH.png'
 import XH_Signal from './Images/Signal/Signal_XH.png'
 import NS_Signal from './Images/Signal/Signal_NS.png'
 
-const headerImages = {
-    home : Home_Signal,
-    EH: EH_Signal,
-    DH: DH_Signal,
-    EvH: EvH_Signal,
-    MH: MH_Signal,
-    VH: VH_Signal,
-    XH: XH_Signal,
-    NS: NS_Signal
+export const headerLogo ={
+    home : [Home_Signal],
 }
 
-export default headerImages
-    
+export const headerImages = {
+    EH: [EH_Signal,'Elemental Hero'],
+    DH: [DH_Signal,'Destiny Hero'],
+    EvH: [EvH_Signal,'Evil Hero'],
+    MH: [MH_Signal,'Masked Hero'],
+    VH: [VH_Signal,'Vision Hero'],
+    XH: [XH_Signal,'Xtra Hero'],
+    NS: [NS_Signal,'Neo Spacians']
+}
